@@ -8,14 +8,14 @@ This document provides a summary of all AWS services related to AI, ML, Deep Lea
 
 | **Service**                 | **Category**          | **Description**                                                                 | **Key Differentiators**                                                                                                     |
 |------------------------------|-----------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Amazon SageMaker            | MLOps / ML Platform  | A fully managed service for building, training, and deploying ML models.        | Supports end-to-end MLOps lifecycle, including data labeling, feature engineering, training, tuning, and hosting models.     |
+| Amazon SageMaker            | MLOps / ML Platform  | A fully managed service for building, training, and deploying ML models.        | Supports end-to-end MLOps lifecycle, including data labeling, feature engineering, training, tuning, and hosting models. Integrates seamlessly with AWS Glue for data preparation and AWS Lambda for event-driven ML workflows.     |
 | AWS Deep Learning AMIs      | Deep Learning        | Pre-configured AMIs for deep learning frameworks (TensorFlow, PyTorch, etc.).   | Ready-to-use environments for training and deploying deep learning models on EC2 instances.                                 |
 | Amazon Rekognition          | Computer Vision      | Image and video analysis for object detection, facial recognition, and more.    | High-level API for complex image and video processing tasks without needing custom ML models.                               |
 | Amazon Polly                | Generative AI        | Converts text to lifelike speech.                                              | Offers natural-sounding voices and supports multiple languages and accents.                                                 |
 | Amazon Comprehend           | Natural Language     | Text analysis to extract insights and entities from documents.                 | Pre-built NLP capabilities, including sentiment analysis, topic modeling, and entity recognition.                           |
 | Amazon Lex                  | Conversational AI    | Builds conversational interfaces (chatbots).                                   | Integrates with Amazon Connect and supports automatic speech recognition (ASR) and natural language understanding (NLU).    |
 | AWS CodeWhisperer           | Generative AI / MLOps| AI-powered coding assistant for developers.                                     | Supports code suggestions, comments, and integration into popular IDEs like VS Code.                                        |
-| Amazon Bedrock              | Generative AI        | Build and scale GenAI applications with foundation models.                     | Managed service to integrate with foundational models without building infrastructure.                                       |
+| Amazon Bedrock              | Generative AI        | Build and scale GenAI applications with foundation models.                     | Simplifies working with foundation models by offering a managed service to integrate with foundational models without building infrastructure. It allows developers to experiment and deploy GenAI applications quickly without worrying about model hosting, scalability, or optimization. |
 | AWS Foundation Models       | Generative AI        | Pre-trained foundation models for text, image, and multimodal applications.    | Optimized for easy integration and scalability within AWS AI and ML services.                                               |
 | AWS Inferentia              | AI Infrastructure    | Custom-built hardware accelerators for deep learning inference.                | Low-cost, high-performance alternative to GPUs for inference workloads.                                                     |
 | Amazon Elastic Inference    | AI Infrastructure    | Attach low-cost GPU-powered inference acceleration to EC2 and SageMaker models.| Provides cost-efficient acceleration for deep learning inference compared to full GPUs.                                      |
@@ -31,6 +31,13 @@ This document provides a summary of all AWS services related to AI, ML, Deep Lea
 | AWS Panorama                | Edge AI              | Enables computer vision applications at the edge.                              | Processes video streams locally, reducing latency and data transfer costs.                                                  |
 | Amazon Neptune ML           | Graph ML            | Machine learning for graph data.                                               | Simplifies creating ML models directly on graph data using integrated algorithms.                                           |
 | AWS RoboMaker              | Robotics AI          | Develops, tests, and deploys robotics applications.                            | Provides simulation and fleet management for autonomous robotics development.                                               |
+| Amazon HealthLake           | Healthcare AI        | A HIPAA-eligible service for storing, transforming, and analyzing healthcare data. | Designed for AI-driven healthcare solutions, including interoperability and advanced data analytics.                        |
+| AWS Ground Station          | Satellite Data AI    | Supports satellite data ingestion for AI and ML processing.                    | Provides low-latency satellite data access for downstream AI/ML workflows.                                                  |
+| AWS IoT Greengrass          | Edge AI              | Enables AI and ML inference at the edge.                                       | Runs AI/ML models locally on IoT devices for real-time predictions.                                                         |
+| Amazon OpenSearch Service   | Search Analytics AI  | AI-powered search and analytics capabilities.                                  | Facilitates intelligent search and real-time data analysis with built-in ML models.                                         |
+| AWS Lambda for ML Inference | Serverless AI        | Serverless architecture for deploying ML models at scale.                      | Simplifies model deployment with auto-scaling and event-driven execution.                                                   |
+| AWS App Runner              | AI Deployment        | Simplifies deploying AI-based web services.                                    | Fully managed service for deploying containerized AI applications without managing infrastructure.                          |
+| Amazon QuickSight Q         | Analytics AI         | Natural language querying for analytics.                                       | Enables conversational querying for data insights using natural language processing.                                         |
 
 ---
 
@@ -58,10 +65,10 @@ This document provides a summary of all AWS services related to AI, ML, Deep Lea
 ![AWS CodeWhisperer](https://via.placeholder.com/600x300.png?text=CodeWhisperer+Coding+Assistant)
 
 ### Amazon Bedrock
-![Amazon Bedrock](https://via.placeholder.com/600x300.png?text=Bedrock+GenAI)
+![Amazon Bedrock](https://via.placeholder.com/600x300.png?text=Bedrock+GenAI+Features)
 
 ### AWS Foundation Models
-![AWS Foundation Models](https://via.placeholder.com/600x300.png?text=Foundation+Models)
+![AWS Foundation Models](https://via.placeholder.com/600x300.png?text=Foundation+Models+Overview)
 
 ### AWS Inferentia
 ![AWS Inferentia](https://via.placeholder.com/600x300.png?text=Inferentia+Inference)
@@ -98,12 +105,4 @@ This document provides a summary of all AWS services related to AI, ML, Deep Lea
 
 ### AWS Panorama
 ![AWS Panorama](https://via.placeholder.com/600x300.png?text=Panorama+Edge+AI)
-
-### Amazon Neptune ML
-![Amazon Neptune ML](https://via.placeholder.com/600x300.png?text=Neptune+Graph+ML)
-
-### AWS RoboMaker
-![AWS RoboMaker](https://via.placeholder.com/600x300.png?text=RoboMaker+Robotics+AI)
-
----
 
